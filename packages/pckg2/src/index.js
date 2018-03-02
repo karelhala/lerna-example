@@ -1,1 +1,1 @@
-console.log('Pckg2');
+console.log('Pckg2 - breaking change  ');

@@ -1,5 +1,28 @@
-<a name="0.0.0"></a>
-# 0.0.0 (2018-03-02)
+<a name="1.0.0"></a>
+# 1.0.0 (2018-03-02)
+
+
+### Features
+
+* **breaking:** breaking change ([2cd393d](https://github.com/karelhala/lerna-example/commit/2cd393d))
+* **Breaking:** breaking change ([16b6c9b](https://github.com/karelhala/lerna-example/commit/16b6c9b))
+* **Some change:** some other change ([2c8f681](https://github.com/karelhala/lerna-example/commit/2c8f681))
+
+
+### BREAKING CHANGES
+
+* **Breaking:** breaking change
+* **breaking:** some breaking changes
+
+
+
+<a name="1.0.0"></a>
+# 1.0.0 (2018-03-02)
+
+
+### Features
+
+* **pckg1:** pckg1 breaking change ([fb8e914](https://github.com/karelhala/lerna-example/commit/fb8e914))
 
 
 

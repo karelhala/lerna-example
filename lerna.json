@@ -6,5 +6,7 @@
   "version": "independent",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true
 }
