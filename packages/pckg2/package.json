@@ -10,8 +10,5 @@
     "pre-test": "npm run lint"
   },
   "author": "Karel Hala",
-  "license": "MIT",
-  "config": {
-    "access": "public"
-  }
+  "license": "MIT"
 }
