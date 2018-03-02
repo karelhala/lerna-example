@@ -1,0 +1,37 @@
+{
+  "name": "@khala/lerna-root",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lerna": "lerna",
+    "bootstrap": "lerna bootstrap && npm install",
+    "prepare": "npm run build",
+    "commit": "git-cz",
+    "build": "lerna run build --parallel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "commitizen": "^2.9.6",
+    "jest": "^22.4.2",
+    "lerna": "^2.9.0",
+    "semantic-release": "^12.4.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "lcov"
+    ],
+    "setupFiles": [
+      "./packages/test.env.js"
+    ]
+  }
+}
