@@ -1,5 +1,15 @@
-<a name="2.0.0"></a>
-# 2.0.0 (2018-03-02)
+<a name="2.1.0"></a>
+# 2.1.0 (2018-03-02)
+
+
+
+<a name="2.1.0"></a>
+# 2.1.0 (2018-03-02)
+
+
+### Features
+
+* **release:** trigger new release ([183e346](https://github.com/karelhala/lerna-example/commit/183e346))
 
 
 
