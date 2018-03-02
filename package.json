@@ -16,7 +16,7 @@
     "test:current": "jest --watch",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "lerna-semantic-release": "lerna-semantic-release",
-    "semantic-release": "lerna-semantic-release pre && echo $TRAVIS_BRANCH && lerna-semantic-release post && lerna-semantic-release perform",
+    "semantic-release": "lerna-semantic-release pre && lerna-semantic-release post && lerna-semantic-release perform",
     "travis-deploy-once": "travis-deploy-once"
   },
   "author": "",
@@ -69,6 +69,8 @@
     "react-dev-utils": "^5.0.0",
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0",
+    "semantic-release": "^15.0.0",
+    "semantic-release-monorepo": "^6.0.0",
     "travis-deploy-once": "^4.3.0",
     "yarn": "^1.5.1"
   },
@@ -78,7 +80,9 @@
     },
     "access": "public"
   },
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "jest": {
     "collectCoverage": true,
     "coverageReporters": [
