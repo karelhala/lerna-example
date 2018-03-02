@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build:scripts",
+    "build:scripts": "babel src --out-dir dist/js --ignore test*.js,__mocks__",
+    "lint": "eslint --fix --max-warnings 0 src",
+    "pre-test": "npm run lint"
   },
   "author": "Karel Hala",
   "license": "MIT"

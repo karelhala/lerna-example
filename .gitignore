@@ -14,7 +14,7 @@ dist/assets/
 dist/css
 dist/data/
 dist/docs/
-dist/js
+**/dist/js
 dist/**/demo-app.*
 dist/*.ttf
 dist/*.eot
