@@ -73,7 +73,8 @@
   "config": {
     "commitizen": {
       "path": "node_modules/cz-lerna-changelog"
-    }
+    },
+    "access": "public"
   },
   "jest": {
     "collectCoverage": true,

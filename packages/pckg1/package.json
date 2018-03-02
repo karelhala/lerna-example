@@ -1,6 +1,6 @@
 {
   "name": "@khala/lerna-pckg1",
-  "version": "0.0.0",
+  "version": "0.0.0-semantically-released",
   "description": "",
   "main": "dist/js/index.js",
   "scripts": {
@@ -10,5 +10,8 @@
     "pre-test": "npm run lint"
   },
   "author": "Karel Hala",
-  "license": "MIT"
+  "license": "MIT",
+  "config": {
+    "access": "public"
+  }
 }
