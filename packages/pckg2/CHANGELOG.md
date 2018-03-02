@@ -1,24 +1,60 @@
-<a name="1.0.0"></a>
-# 1.0.0 (2018-03-02)
+<a name="2.0.0"></a>
+# 2.0.0 (2018-03-02)
+
+
+
+<a name="2.0.0"></a>
+# 2.0.0 (2018-03-02)
 
 
 ### Features
 
-* **breaking:** breaking change ([2cd393d](https://github.com/karelhala/lerna-example/commit/2cd393d))
-* **Breaking:** breaking change ([16b6c9b](https://github.com/karelhala/lerna-example/commit/16b6c9b))
-* **pckg2:** new release for pckg2 ([fef1a80](https://github.com/karelhala/lerna-example/commit/fef1a80))
-* **Some change:** some other change ([2c8f681](https://github.com/karelhala/lerna-example/commit/2c8f681))
+* **Some change:** other change ([a0f7d0e](https://github.com/karelhala/lerna-example/commit/a0f7d0e))
 
 
 ### BREAKING CHANGES
 
-* **Breaking:** breaking change
-* **breaking:** some breaking changes
+* **Some change:** some breaking change
 
+feat(pckg1): pckg1 breaking change
 
+affects: @khala/lerna-pckg1
 
-<a name="1.0.0"></a>
-# 1.0.0 (2018-03-02)
+chore(release): releasing component
+
+affects: @khala/lerna-pckg1@1.0.0
+
+Released from sha fb8e91432e5da3c49051dc9a0b8490c25ed0d039
+
+[skip ci]
+Tag for lerna release
+
+chore(release): releasing component
+
+affects: @khala/lerna-pckg2@1.0.0
+
+Released from sha fb8e91432e5da3c49051dc9a0b8490c25ed0d039
+
+[skip ci]
+Tag for lerna release
+
+feat(pckg2): new release for pckg2
+
+affects: @khala/lerna-pckg2
+
+feat(breaking): breaking change
+
+affects: @khala/lerna-pckg1, @khala/lerna-pckg2
+* **Some change:** some breaking changes
+
+feat(Some change): some other change
+
+affects: @khala/lerna-pckg1, @khala/lerna-pckg2
+
+feat(Breaking): breaking change
+
+affects: @khala/lerna-pckg1, @khala/lerna-pckg2
+* **Some change:** breaking change
 
 
 
