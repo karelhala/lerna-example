@@ -1,5 +1,15 @@
-<a name="3.0.0"></a>
-# 3.0.0 (2018-03-02)
+<a name="3.1.0"></a>
+# 3.1.0 (2018-03-02)
+
+
+
+<a name="3.1.0"></a>
+# 3.1.0 (2018-03-02)
+
+
+### Features
+
+* **release notes:** add release notes ([26ac754](https://github.com/karelhala/lerna-example/commit/26ac754))
 
 
 

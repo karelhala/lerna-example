@@ -9,9 +9,7 @@ node_js:
 - '6'
 before_script:
 - npm prune
-script:
-- npm run test
-- npm run coveralls
+before_install: scripts/travis/before.sh
 after_success: scripts/travis/after_success.sh
 script: npm run lint && npm test
 git:
