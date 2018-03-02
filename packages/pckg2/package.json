@@ -1,8 +1,8 @@
 {
   "name": "@khala/lerna-pckg2",
-  "version": "0.0.1",
+  "version": "0.0.0-semantically-released",
   "description": "",
-  "main": "index.js",
+  "main": "dist/js/index.js",
   "scripts": {
     "build": "npm run build:scripts",
     "build:scripts": "babel src --out-dir dist/js --ignore test*.js,__mocks__",

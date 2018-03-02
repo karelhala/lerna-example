@@ -1,6 +1,7 @@
 {
   "name": "@khala/lerna-root",
-  "version": "0.0.1",
+  "version": "0.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,18 +15,20 @@
     "test:watch": "jest --watchAll",
     "test:current": "jest --watch",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "semantic-release": "semantic-release",
+    "semantic-release": "lerna-semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@storybook/addon-actions": "^3.2.12",
+    "@storybook/addon-info": "3.2.12",
+    "@storybook/addon-knobs": "3.2.12",
+    "@storybook/addon-links": "^3.2.12",
+    "@storybook/addon-options": "^3.3.10",
+    "@storybook/react": "3.2.12",
+    "@storybook/storybook-deployer": "^2.1.0",
     "babel": "^6.23.0",
-    "coveralls": "^3.0.0",
-    "eslint": "^4.18.1",
-    "jest": "^22.4.2",
-    "lerna": "^2.9.0",
-    "semantic-release": "^12.4.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.1.2",
@@ -37,7 +40,9 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.1.0",
+    "coveralls": "^3.0.0",
+    "cz-lerna-changelog": "^1.2.1",
+    "eslint": "^4.18.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-config-standard": "^10.2.1",
@@ -52,7 +57,12 @@
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-react": "^7.5.1",
     "eslint-plugin-standard": "^3.0.1",
+    "jest": "^22.4.2",
     "jest-cli": "^22.0.4",
+    "lerna": "^2.9.0",
+    "prettier": "^1.9.2",
+    "prettier-eslint": "^8.8.1",
+    "lerna-semantic-release": "^9.1.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dev-utils": "^5.0.0",
@@ -62,7 +72,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
+      "path": "node_modules/cz-lerna-changelog"
     }
   },
   "jest": {
