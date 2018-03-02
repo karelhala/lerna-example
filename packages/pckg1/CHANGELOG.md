@@ -1,5 +1,23 @@
-<a name="2.1.0"></a>
-# 2.1.0 (2018-03-02)
+<a name="3.0.0"></a>
+# 3.0.0 (2018-03-02)
+
+
+
+<a name="3.0.0"></a>
+# 3.0.0 (2018-03-02)
+
+
+### Features
+
+* **breaking:** change of both components ([9054fe8](https://github.com/karelhala/lerna-example/commit/9054fe8))
+* **breaking change:** breaking change of both packages ([faedf7a](https://github.com/karelhala/lerna-example/commit/faedf7a))
+* **release:** trigger release ([9f35ec0](https://github.com/karelhala/lerna-example/commit/9f35ec0))
+
+
+### BREAKING CHANGES
+
+* **breaking:** some breaking changes | divided
+* **breaking change:** both packages breaking change| some more text
 
 
 
