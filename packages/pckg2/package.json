@@ -13,5 +13,8 @@
   "license": "MIT",
   "devDependencies": {
     "patternfly-react": "^1.11.1"
+  },
+  "dependencies": {
+    "@khala/lerna-pckg1": "^4.1.0"
   }
 }

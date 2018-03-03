@@ -1,0 +1,10 @@
+{
+  "presets": ["env", "react"],
+  "plugins": [
+    "transform-class-properties",
+    "transform-export-extensions",
+    "transform-object-rest-spread",
+    "transform-object-assign"
+  ],
+  "ignore": ["**/src/**/__snapshots__", "**/src/**/*.stories.js", "**/src/**/Stories"]
+}

@@ -5,7 +5,7 @@
   "main": "dist/js/index.js",
   "scripts": {
     "build": "npm run build:scripts",
-    "build:scripts": "babel src --out-dir dist/js --ignore test*.js,__mocks__",
+    "build:scripts": "babel src --out-dir dist/js --ignore test*.js,__mocks__,*.stories.",
     "lint": "eslint --fix --max-warnings 0 src",
     "pre-test": "npm run lint"
   },
