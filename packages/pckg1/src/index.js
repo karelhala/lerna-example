@@ -1,1 +1,1 @@
-console.log('Pckg1 - breaking change ');
+export * from './example-button';
